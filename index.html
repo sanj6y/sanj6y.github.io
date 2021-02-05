@@ -1,1 +1,206 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Sanjay Chandrasekar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/media/favicon.ico">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js"></script>
+</head>
+<body>
+    <h2 id="header">Sanjay Chandrasekar</h2>
+    <div id="navbar">
+        
+        <div class="navbutton" data-trigger-content="about">about</div>
+        
+        <div class="navbutton" data-trigger-content="coursework">coursework</div>
+        
+        <div class="navbutton" data-trigger-content="projects">projects</div>
+        
+    </div>
+    <hr>
+    <div id="content">
+        
+            
+                
+            
+            <div class="contentItem " id="about">
+
+                <p><img src="media/profilepic.jpeg" alt="profile picture" id="propic">
+Welcome! I'm Sanjay Chandrasekar, a freshman at Monta Vista High School in Cupertino, California, in the United States. 
+I'm interested in Computer Science and mathematics, focusing on using Machine Learning and Artificial Intelligence to build
+things that will impact the world positively.
+</p>
+<p>At Monta Vista, I'm focusing in on Computer Science related courses. I'm a part of the Software and Mechanical Divisions in 
+the <a href="mvrt.com">Monta Vista Robotics Team</a>. In MVRT, I've been learning Web Dev for Software, using HTML, CSS, and 
+JavaScript, in addition to CAD for Mechanical, using Autodesk Inventor to design the robot.
+</p>
+<p>In addition to my school courses at Monta Vista, I have completed and am doing some extra courses at De Anza College, the local
+ community college (more about that in the Coursework tab).
+</p>
+
+<p>Some projects that I am currently working on, in addition to a lot of the information on more courses I am currently doing,
+can be found on my <a href="https://www.github.com/chandrasekarsanjay">Github</a>.
+
+<style>
+	#about ul {
+		margin-top: -2pt;
+	}
+
+	#about ul>li {
+		margin-bottom: 1pt;
+	}
+
+</style>
+
+            </div>
+            
+            
+                
+            
+            <div class="contentItem hiddenItem" id="coursework">
+
+                Here are some courses that I've taken or am taking at Monta Vista and at other institutions/schools, with my thoughts (click to expand).
+              Note that my school courses at Monta Vista will only be listed one quarter per year instead of the normal three.
+              
+   <div class="semester">
+    <h4>Winter 2021</h4>
+    
+        <div class="subject">
+            <span class="subjectName">De Anza: ESCI D001 Environmental Science</span>
+            <div class="hiddenItem">In Progress</div>
+        </div>
+
+
+    <div class="semester">
+    <h4>Fall 2020</h4>
+    
+        <div class="subject">
+            <span class="subjectName">De Anza: CIS D035A Java Programming</span>
+            <div class="hiddenItem">This course was an introduction to Java for me, and this course was mostly self-learning, since all we had to learn from were video lectures.</div>
+        </div>
+    
+        <div class="subject">
+            <span class="subjectName">Biology - Jones</span>
+            <div class="hiddenItem">Required course for freshman year, Mr. Jones is a great teacher and answers any questions/emails promptly.</div>
+        </div>
+    
+        <div class="subject">
+            <span class="subjectName">Algebra 2/Trig - Jennings</span>
+            <div class="hiddenItem">Not much new, already completed at BYU in 2020's summer. Repeated because I thought PreCalc would be difficult, that was a mistake.</div>
+        </div>
+    
+        <div class="subject">
+            <span class="subjectName">Literature/Writing - Wright</span>
+            <div class="hiddenItem">Required course for freshman year, not too complicated. Easy homeworks and essays are large portion of grade.</div>
+        </div>
+    
+        <div class="subject">
+            <span class="subjectName">Spanish 2 - Caringella</span>
+            <div class="hiddenItem">Spanish 2 is a really informative and entertaining class. Señor Caringella delivers the lectures very nicely and makes the classes very lively, while still conducive for learning.</div>
+        </div>
+      
+        <div class="subject">
+            <span class="subjectName">Principles of Business - Mueller</span>
+            <div class="hiddenItem">Principles of Business is a very enaging class. The lectures are somewhat stretched out, but informative nonetheless. Tried this course to explore, not going to continue with Business (just not interesting to me).</div>
+        </div>
+    
+    </div>
+
+    <div class="semester">
+    <h4>Summer 2020</h4>
+    
+        <div class="subject">
+            <span class="subjectName">BYU Independent Study: Algebra 2/Trig</span>
+            <div class="hiddenItem">This course was a new math course, but it turned out to be not too challenging to do over summer.</div>
+        </div>
+    
+    </div>
+
+
+<script>
+    for (var elem of document.getElementsByClassName('subjectName')) {
+            elem.addEventListener('click', toggleDescription);
+        }
+</script>
+
+<style>
+    #coursework ul {
+        margin-bottom: 8pt;
+        margin-top: 4pt;
+    }
+
+    #coursework ul > li {
+        margin-bottom: 2pt;
+    }
+
+    div.subject {
+        margin-bottom: 8pt;
+    }
+
+    div.subject > div {
+        margin-top: 4pt;
+        margin-bottom: 12pt;
+    }
+
+    span.subjectName {
+        text-decoration: underline;
+    }
+
+    span.subjectName:hover {
+        cursor: pointer;
+    }
+
+    span.subjectName:active {
+        color: #000000;
+    }
+
+    div.semester {
+        margin-bottom: 24pt;
+    }
+</style>
+
+
+            </div>
+            
+            
+                
+            
+            <div class="contentItem hiddenItem" id="stuff">
+
+                <p>A collection of links I find particularly interesting.</p>
+<h4>Blogs</h4>
+<ul>
+<li><a href="http://eulerarchive.maa.org/">Euler's Archive</a> - All of Euler's work in one archive.</li>
+<li><a href="https://ai.googleblog.com/search/label/Machine%20Learning?utm_source=towardsai.net&utm_medium=r
+  eferral&utm_campaign=marketing&utm_term=machine-learning-blog&utm_content=best-machine-learning-blogs-to-follow"
+       >Google AI Blog</a> - A blog on the latest Machine Learning advances by Google.</li>
+<li><a href="https://unsplash.com/s/photos/dogs">Dogs on Unsplash</a> - A bunch of photos of dogs. (What more is there to say?)</li>
+<li><a href="https://gwern.net">Gwern</a></li>
+</ul>
+
+            </div>
+            
+    </div>
+
+    <div id="footer">
+        <div>last updated 02-04-21</div>
+        <div>
+            
+                <a href=http://www.catb.org/hacker-emblem/ target="_blank">
+                  <img class="symbol" src="media/glider.svg" alt="hacker emblem">
+                </a>
+            
+        </div>
+    </div>
+    <link href="src/css.css" rel="stylesheet">
+
+    <script>
+        var links = document.getElementsByTagName('a');
+        for (var i=0, len=links.length; i < len; i ++) {
+              links[i].target = '_blank';
+        }
+    </script>
+
+</body></html>
