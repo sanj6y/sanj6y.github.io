@@ -1,0 +1,59 @@
+A list of the courses I've taken, along with some thoughts or specialities
+about them (click to reveal).
+
+{% for semester in coursework %}
+    <div class="semester">
+    {% markdown %}
+       #### {{semester.name}}
+    {% endmarkdown %}
+    {% for course in semester.courses %}
+        <div class="subject">
+            <span class="subjectName">{{course.name}}</span>
+            <div class="hiddenItem">{{course.desc}}</div>
+        </div>
+    {% endfor %}
+    </div>
+{% endfor %}
+
+<script>
+    for (var elem of document.getElementsByClassName('subjectName')) {
+            elem.addEventListener('click', toggleDescription);
+        }
+</script>
+
+<style>
+    #coursework ul {
+        margin-bottom: 8pt;
+        margin-top: 4pt;
+    }
+
+    #coursework ul > li {
+        margin-bottom: 2pt;
+    }
+
+    div.subject {
+        margin-bottom: 8pt;
+    }
+
+    div.subject > div {
+        margin-top: 4pt;
+        margin-bottom: 12pt;
+    }
+
+    span.subjectName {
+        text-decoration: underline;
+    }
+
+    span.subjectName:hover {
+        cursor: pointer;
+    }
+
+    span.subjectName:active {
+        color: #000000;
+    }
+
+    div.semester {
+        margin-bottom: 24pt;
+    }
+</style>
+

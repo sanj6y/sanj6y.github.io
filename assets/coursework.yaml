@@ -1,0 +1,13 @@
+- name: Fall 2011
+  courses:
+    - name: CS 1 Introduction to programming with FORTRAN
+      desc: '(in progress)'
+    - name: Math 101 Calculus 1
+      desc: '(in progress)'
+    - name: Anth 33 Techniques in Excavation and Archaeological Discovery
+      desc: '(in progress)'
+    - name: Chin 102 Introductory Chinese
+      desc: '(in progress)'
+    - name: Mus 28 Class Piano
+      desc: '(in progress)'
+

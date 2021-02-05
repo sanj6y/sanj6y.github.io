@@ -1,0 +1,190 @@
+html {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-device-width: 560px) {
+    body {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: #fefdff;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        color: #434343;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-family: 'Open Sans', 'Helvetica', sans-serif;
+        font-size: 11pt;
+        min-height: 100%;
+        margin: 0;
+        padding: 8pt;
+    }
+}
+
+@media only screen and (min-device-width: 560px) {
+    body {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: #fefdff;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        color: #434343;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-family: 'Open Sans', 'Helvetica', sans-serif;
+        font-size: 12pt;
+        min-height: 100%;
+        margin: 0;
+        padding: 8pt 20%;
+    }
+}
+
+h2#header {
+    font-weight: 700;
+    margin-top: 14pt;
+    margin-bottom: 14pt;
+}
+
+div#navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    div.navbutton {
+        background-color: #e1e1e1;
+        border-radius: 4pt;
+        border-style: none;
+        border-width: 2pt;
+        margin: 0 4pt;
+        padding: 1pt 8pt;
+    }
+
+    hr {
+        color: #434343;
+        margin-bottom: 8pt;
+        margin-top: 12pt;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 481px) {
+    div.navbutton {
+        background-color: #e1e1e1;
+        border-radius: 4pt;
+        border-style: none;
+        border-width: 2pt;
+        margin: 0 10pt;
+        padding: 1pt 8pt;
+    }
+
+    hr {
+        color: #434343;
+        margin-bottom: 12pt;
+        margin-top: 12pt;
+        width: 100%;
+    }
+}
+
+div.navbutton:hover {
+    background-color: #e6ee9c;
+    cursor: pointer;
+}
+
+div.navbutton:active {
+    background-color: #d4e157;
+}
+
+div.hiddenItem {
+    display: none;
+}
+
+div#content {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 85%;
+}
+
+#content p {
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    margin: 8pt 0;
+}
+
+#activities p {
+    margin-bottom: 14pt;
+}
+
+#propic {
+    border-color: transparent;
+    border-radius: 3pt;
+    border-width: 0;
+    float: right;
+    margin-bottom: 4pt;
+    margin-left: 10pt;
+    max-width: 200px;
+    width: 40%;
+}
+
+div#footer {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20pt;
+    width: 100%;
+}
+
+img.symbol {
+    height: 35pt;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+#links > ul {
+    margin-top: -8pt;
+}
+
+#links ul > li {
+    margin-bottom: 1pt;
+}

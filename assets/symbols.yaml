@@ -1,0 +1,6 @@
+- url: media/source.png
+  target: http://gitlab.com/aalok-sathe/simple-personal-website.git
+  alt: view page source
+- url: media/glider.svg
+  target: http://www.catb.org/hacker-emblem/
+  alt: hacker emblem
