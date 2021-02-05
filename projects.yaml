@@ -1,17 +1,17 @@
-groups:
-    - name: Very Enthusiastic group
-      start: Nov 2030
-      end: past
-      location: YOUR COLLEGE OR UNIVERSITY
-      projects:
-        - title: Fancy Appealing Project Title
-          desc: "Lots of self-made claims about project."
-          link: http://www.github.com/USERNAME/fancy-project-identifier.git
-        - title: Another Fancy Side Project
-          desc: Not Much to Say Here
+#groups:
+ #   - name: Very Enthusiastic group
+  #    start: Nov 2030
+   #   end: past
+    #  location: YOUR COLLEGE OR UNIVERSITY
+     # projects:
+      #  - title: Fancy Appealing Project Title
+       #   desc: "Lots of self-made claims about project."
+        #  link: http://www.github.com/USERNAME/fancy-project-identifier.git
+       # - title: Another Fancy Side Project
+        #  desc: Not Much to Say Here
 
 
-petprojects:
-    - title: Hello World
-      desc: Project to Learn Programming
-      link: hello-world.html
+# petprojects:
+  #  - title: Hello World
+   #   desc: Project to Learn Programming
+    #  link: hello-world.html
